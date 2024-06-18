@@ -8,6 +8,7 @@ class AppStrings {
   static const String onboardingSubTitle2 = "Tut app is an awesome flutter application using clean architecture #2";
   static const String onboardingSubTitle3 = "Tut app is an awesome flutter application using clean architecture  #3";
   static const String onboardingSubTitle4 = "Tut app is an awesome flutter application using clean architecture #4";
+  static const String skip = "skip";
 
 
 }
