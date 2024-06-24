@@ -19,15 +19,15 @@ class Customer{
 class Contacts{
   String phone;
   String link;
-  int email;
+  String email;
 
   Contacts(this.phone, this.link, this.email);
 }
 
 
-class Authentication{
-  String customer;
-  String contacts;
+class Authentication {
+  Customer? customer;
+  Contacts? contacts;
 
   Authentication(this.customer, this.contacts);
 }
